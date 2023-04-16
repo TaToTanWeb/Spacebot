@@ -1,0 +1,11 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+icon: ./icon.png
+micros:
+  - name: Spacebot
+    src: ./
+    engine: python3.9
+    primary: true
+    dev: uvicorn main:app --port 1024
+    public_routes:
+      - "update/*"

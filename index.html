@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spacebot</title>
+        <link rel = "stylesheet" href = "public/styles/style.css">
+        <script src = "public/scripts/check_token.js"></script>
+        <script src = "public/scripts/add_command.js"></script>
+        <script src = "public/scripts/check_input.js"></script>
+        <script src = "public/scripts/save_config.js"></script>
+    </head>
+    <body>
+        <container>
+            <img src = "public/icon.png" id = "profile-image">
+            <name id = "name">Spacebot</name>
+
+            <input-field class = "bot-token">
+                <input-name>bot token</input-name>
+                <input oninput = "check_token(this)" id = "token-input">
+            </input-field>
+
+            <commands-field></commands-field>
+
+            <save-button id = "save-button" onclick = "save_config()">Save</save-button>
+        </container>
+
+        <div id = "notification-banner"></div>
+    </body>
+</html>
