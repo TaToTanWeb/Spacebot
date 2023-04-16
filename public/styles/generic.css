@@ -1,0 +1,23 @@
+input-name {
+    background-color: white;
+    color: var(--primary-color);
+    width: fit-content;
+    padding-right: 15px;
+    padding-left: 10px;
+    transform: translate(20px, 10px);
+}
+
+input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: 1px solid rgb(10, 108, 171);
+    outline: 1px solid rgb(10, 108, 171);
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    resize: none;
+}

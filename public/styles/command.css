@@ -1,0 +1,12 @@
+.command-box {
+    display: flex;
+}
+
+.command-name {
+    margin: 12px;
+    height: fit-content;
+}
+
+.command-response {
+    margin: 12px;
+}

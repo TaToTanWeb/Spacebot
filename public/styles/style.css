@@ -1,0 +1,23 @@
+@import 'profile.css';
+@import 'generic.css';
+@import 'command.css';
+@import 'save.css';
+@import 'notification.css';
+
+
+html {
+    --primary-color: rgb(10, 108, 171);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    transition: 0.25s background-color, color;
+}
+
+
+container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

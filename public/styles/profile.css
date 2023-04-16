@@ -1,0 +1,21 @@
+img#profile-image {
+    border-radius: 50%;
+    width:  200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+name {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input-field.bot-token {
+    margin-top: 20px;
+    width: 50vw;
+    transition: 50ms opacity;
+    margin-bottom: 40px;
+}

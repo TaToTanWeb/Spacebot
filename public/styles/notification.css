@@ -1,0 +1,16 @@
+#notification-banner {
+	position: fixed;
+	top: 100vh;
+	right: 40px;
+
+	border: 1px solid gray;
+	border-radius: 7px;
+	padding: 7px;
+
+	transition: 75ms transform;
+	background-color: white;
+}
+
+#notification-banner.show {
+	transform: translate(0px, -80px);
+}
